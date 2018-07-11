@@ -1,0 +1,118 @@
+body {
+    background-image: url("https://www.oceanprosperityroadmap.org/wp-content/uploads/2015/05/ocean-final.jpg");
+      
+  }
+  
+  h1 {
+    font-family: "cute font", cursive;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    border:solid;
+    border-radius:40px;
+    background:white;
+    padding: 15px 20px 15px 20px;
+    width: 40%;
+  }
+  
+  
+  
+  .school
+   {font-family: "lato", sans serif;
+    border: dashed;
+    border-radius: 40px;
+    background: white;
+  }
+  
+  h4 {
+    text-align: center;
+    color: red;
+  }
+  h5 {
+    text-align: center;
+    color: red;
+  }
+  
+  .amsurg {
+    font-family: "lato", sans serif;
+    border: dashed;
+    border-radius: 40px;
+    background: white;
+  }
+  
+  .ascension {
+    font-family: "cutefont", cursive;
+    border: dotted;
+    border-radius: 40px;
+    background: white;
+  }
+  .volunteer {
+    border-top-style: double;
+    border-bottom-style: double;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-radius: 40px;
+    background: white;
+  }
+  .container H2
+  {Font-family:"cutefont",cursive;
+  color:red;
+  text-align:center;
+    border:solid;
+    border-radius:40px;
+      background:lightgrey;
+  }
+  
+  #contactus
+  {color:white;
+    width: 70%; 
+      padding: 30px;  
+      border:solid;
+      border-radius: 20px;  
+      margin-top: 10px; 
+      margin-bottom: 25px;
+    margin-left: 20px;
+  cursor:pointer;}
+  
+  input[type=button]
+  {width:100%;
+  padding: 20px 30px;
+  border-radius:20px;
+  border:solid black 2px;
+  cursor:pointer;}
+  
+  .movie-item img
+  {height: 150px;
+  width: 100px;
+  padding:30px;}
+  movie-item
+  {text-align:center;
+  }
+  .movie-container
+  {height:250px;
+    background:;grey;
+    display:flex;
+  flex-direction:row;
+  justify-content:center;
+    padding:15px;
+  border:solid white 20px;
+    border-radius:30px;
+  align-items:center;
+  flex-wrap:wrap;}
+  
+  li
+  { list-style-type:none;
+  margin:0;
+  padding:0;
+  display:inline;
+  }
+  ul
+  {
+  width: 30%;
+    text-align:center;
+    border-radius: 20%;
+    border: 2px solid black;
+      background-color: white;
+    float:right;
+  }
+  
