@@ -1,28 +1,57 @@
-body {
-    background-image: url("https://www.oceanprosperityroadmap.org/wp-content/uploads/2015/05/ocean-final.jpg");
-      
+body{
+    background-color: bisque;
+}
+ #navbar {
+    overflow: hidden;
+    background-color: #333;
   }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  } 
+        
+
+
   
   h1 {
-    font-family: "cute font", cursive;
+      font-size: 15em;
+    
     text-align: center;
-    font-size: 40px;
-    color: red;
+
+    
     border:solid;
-    border-radius:40px;
+    border-radius:30px;
     background:white;
     padding: 15px 20px 15px 20px;
-    width: 40%;
+    width: 50%;
   }
   
   
   
-  .school
-   {font-family: "lato", sans serif;
-    border: dashed;
-    border-radius: 40px;
-    background: white;
-  }
+  
   
   h4 {
     text-align: center;
@@ -90,7 +119,7 @@ body {
   }
   .movie-container
   {height:250px;
-    background:;grey;
+    background:grey;
     display:flex;
   flex-direction:row;
   justify-content:center;
@@ -115,4 +144,23 @@ body {
       background-color: white;
     float:right;
   }
-  
+  .flex-item {
+
+    background-color: rgb(201, 229, 236);
+    border-radius: 5%;
+    width: 50%;
+    height: 40%;
+    margin: 3em;
+    text-align: center;
+    
+}
+.flex-container{
+        display: flex;
+        display: -webkit-flex;
+        width: 100%;   
+        background-color: black;  
+        flex-direction: row-reverse; 
+        border-radius: 5%;  
+        margin: 1em;
+    
+    }
